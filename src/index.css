@@ -1,0 +1,109 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #d7e1ec, #f0f4f8);
+}
+
+.main-container {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.weather-form {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.weather-form input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.weather-form button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.weather-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffffdd;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+/* Error message */
+.error-message {
+  color: #d9534f;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffffd9;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form label {
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-form button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #555;
+  font-size: 0.9rem;
+  padding: 10px 0;
+}
