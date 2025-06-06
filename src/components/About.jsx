@@ -13,7 +13,7 @@ const About = () => {
 
       <section className="mb-5 p-4 bg-white rounded shadow-sm d-flex align-items-center flex-wrap">
         <img
-          src="/creator.jpg"
+          src="/weather/creator.jpg"
           alt="Creator"
           className="rounded-circle me-4"
           style={{
@@ -44,7 +44,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* How It Works */}
       <section className="p-4 bg-light rounded shadow-sm">
         <h2 className="mb-4 text-primary">How It Works</h2>
         <ul className="list-group list-group-flush">
