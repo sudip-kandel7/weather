@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/weather">
       <div className="d-flex flex-column min-vh-100">
         <Navbar />
         <div className="container my-4 flex-grow-1">
