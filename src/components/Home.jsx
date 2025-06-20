@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 const Home = () => {
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState("Pokhara");
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState("");
 
@@ -28,6 +28,10 @@ const Home = () => {
     }
   };
 
+  useEffect(() => {
+    fetchWeather();
+  }, []);
+
   return (
     <div className="container main-container">
       <h2 className="text-center mb-4">Search Weather by City</h2>
@@ -38,6 +42,7 @@ const Home = () => {
           placeholder="Enter city name..."
           value={city}
           onChange={(e) => setCity(e.target.value)}
+          onFocus={(e) => e.target.select()}
         />
         <button className="btn btn-primary" onClick={fetchWeather}>
           Search
