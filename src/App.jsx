@@ -8,15 +8,15 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
     <Router basename="/weather">
-      <div className="d-flex flex-column min-vh-100">
+      <div className="flex min-h-screen flex-col">
         <Navbar />
-        <div className="container my-4 flex-grow-1">
+        <main className="mx-auto grow px-4 py-6 sm:px-6 lg:px-8">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </div>
+        </main>
         <Footer />
       </div>
     </Router>

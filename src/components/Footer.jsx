@@ -1,12 +1,16 @@
-import React from "react";
-
 const Footer = () => {
   return (
-    <footer className="bg-light text-center py-3 mt-auto">
-      <small>
-        Made by Sudip Kandel | © {new Date().getFullYear()} | Powered by Paade’s
-        Digital Magic
-      </small>
+    <footer className="mt-10 bg-blue-600 p-4 text-center text-white">
+      <p className="text-lg">
+        Made with ☁️ by{" "}
+        <span className="font-semibold">
+          Sudip Kandel
+        </span>
+      </p>
+
+      <p className="mt-2 text-sm text-blue-100">
+        © {new Date().getFullYear()} Paade. All rights reserved.
+      </p>
     </footer>
   );
 };
