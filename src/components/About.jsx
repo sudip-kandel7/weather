@@ -43,7 +43,7 @@ const About = () => {
       </section>
 
       <section className="rounded-2xl border text-center border-slate-200 bg-white p-4 text-xl font-bold shadow-sm">
-       This is made by using 30 - 40% AI ( Github Copilot )
+       This is made by using 30 - 40% AI ( Github Copilot ) mainly color and design.
       </section>
     </div>
   );
