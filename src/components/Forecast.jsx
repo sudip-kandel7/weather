@@ -21,7 +21,7 @@ export default function Forecast({ entries }) {
   };
 
   return (
-    <div className="mt-8 w-full rounded-3xl bg-linear-to-br from-blue-50 to-white p-6 shadow-xl">
+    <div className="mt-8 w-full rounded-3xl bg-white p-6 shadow-lg">
       <div className="mb-6 flex items-center justify-between">
         <div>
           <p className="text-sm font-medium uppercase tracking-widest text-blue-500">
@@ -44,7 +44,7 @@ export default function Forecast({ entries }) {
             key={entry.dt}
             className="
               rounded-2xl
-              bg-white
+              bg-gray-100
               p-4
               text-center
               shadow-md

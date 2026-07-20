@@ -6,9 +6,11 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 const App = () => {
+  
+
   return (
     <Router basename="/weather/">
-      <div className="flex min-h-screen flex-col">
+      <div className="flex min-h-screen flex-col bg-gray-100">
         <Navbar />
         <main className="mx-auto grow px-4 py-6 sm:px-6 lg:px-8">
           <Routes>
